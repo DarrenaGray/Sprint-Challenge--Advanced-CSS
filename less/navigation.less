@@ -8,6 +8,10 @@
     width: 100%;
     border-bottom: 1px solid @nav-border;
 
+    @media @phone {
+        width: 100%;
+    }
+
     h1 {
         font-size: 45px;
 
@@ -20,7 +24,7 @@
             display: flex;
             flex-wrap: nowrap;
             width: 100%;
-            padding: 15px;
+            padding: 20px 5px;
         }
         
    
@@ -30,6 +34,11 @@
             padding: 0 20px;
             color: @ebony-clay;
             font-weight: bold;
+
+            @media @phone {
+                width: 100%;
+                padding: 0 5px;
+            }
             
         }
     }
