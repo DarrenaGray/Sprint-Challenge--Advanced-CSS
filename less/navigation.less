@@ -10,11 +10,18 @@
 
     h1 {
         font-size: 45px;
-        
+
     }
 
     nav {
         padding: 20px;
+
+        @media @phone {
+            display: flex;
+            flex-wrap: nowrap;
+            width: 100%;
+            padding: 15px;
+        }
         
    
         a {
@@ -23,6 +30,7 @@
             padding: 0 20px;
             color: @ebony-clay;
             font-weight: bold;
+            
         }
     }
 }
